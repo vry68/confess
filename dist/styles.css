@@ -1,0 +1,92 @@
+.primary-dark {
+    background: #28282B;
+}
+form {
+    height: 300px;
+}
+.form-div {
+    width: 350px;
+    height: 400px;
+    background: #343434;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: -10px 10px 10px #343434;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-div input, .form-div textarea {
+    background-color: #343434;
+    color: #fff;
+    width: 90%;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    /* margin-left: 5%; */
+}
+.form-div input {
+    margin-bottom: 10px;
+}
+.form-div button {
+    color: #bbbbbb;
+    background: #343434;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #28282B;
+    color: #cecece;
+}
+
+.confess-div {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.confess {
+    border: 1px solid #343434;
+    background: #343434;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.confess h1 {
+    color: #bbbbbb;
+    margin: 10px 0 0 15px;
+    font-size: 18px;
+}
+.message {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    width: 90%;
+    color: #fff;
+}
+.header-title {
+    text-align: center;
+    font-size: 44px;
+    color: #bbbbbb;
+    margin-top: 50px;
+    line-height: 10px;
+    letter-spacing: 10px;
+}
